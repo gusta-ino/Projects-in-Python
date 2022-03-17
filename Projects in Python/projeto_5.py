@@ -1,0 +1,10 @@
+#teste de entrada, o programa faz uma verificação de cada fator da variavel
+var = input('Digite algo:')
+print ('O tipo primitivo desse valor é:' , type(var))
+print('Só tem espaços' , var.isspace())
+print('É um número?' , var.isnumeric())
+print('É alfabético?' , var.isalpha())
+print('É alfanumérico?' , var.isalnum())
+print('É maiusculo?' , var.isupper())
+print('É minusculo?' , var.islower())
+print('É capitalizado?' , var.istitle())
